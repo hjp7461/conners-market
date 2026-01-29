@@ -22,7 +22,7 @@ ai-ml-toolkit (agents)          →    ai-ml-skill (skill)
 | **호출** | Task 에이전트 선택 | `/ai-ml-skill rag ...` |
 | **도메인 선택** | 수동 에이전트 지정 | 키워드 기반 자동 감지 |
 | **도구** | Read, Write, Edit, Bash | + WebSearch, WebFetch, Grep, Glob, Task |
-| **출처** | davila7/claude-code-templates | hjp7461/ai-ml-skill |
+| **출처** | davila7/claude-code-templates | hjp7461/conners-market |
 
 ## 지원 도메인
 
@@ -39,7 +39,7 @@ ai-ml-toolkit (agents)          →    ai-ml-skill (skill)
 
 ```bash
 # 1. 마켓플레이스 등록 (최초 1회)
-/plugin marketplace add hjp7461/ai-ml-skill
+/plugin marketplace add hjp7461/conners-market
 
 # 2. 플러그인 설치
 /plugin install ai-ml-skill@conners-market
